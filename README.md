@@ -14,7 +14,7 @@ This project is designed to perform image classification to classify concretes w
 
 
 ## Achievement and limitation of this model
-Due to the time and hardware contrainsts, the model has been trained to achieve its best results.  This model has achieved an accuracy of 99.% and loss rate of 0.88.  
+Due to the time and hardware contrainsts, the model has been trained to achieve its best results.  This model has achieved an accuracy of 99.8% and loss rate of 0.021.  
 
 ## Citation
 Title: Concrete Crack Images for Classification
@@ -23,18 +23,23 @@ Contributor: Çağlar Fırat Özgenel, 2018 – Özgenel, Ç.F., Gönenç Sorgu�
 Source: https://data.mendeley.com/datasets/5y9wdsg2zt/2
 
 ## Screenshots
-### Classification Report
-
-
-### Predicted vs Actual 
-
-
 ### Model Architecture
+![model](https://user-images.githubusercontent.com/121808701/211750832-1d7e51bc-164a-4946-b01d-3fb4fffa7b60.png)
 
 
 ### Accuracy (Training vs Validation)
+![Training vs Validation Chart](https://user-images.githubusercontent.com/121808701/211755435-732d1880-f63d-4639-8fb2-0a7cc29444ce.png)
+
+
+### Model Evaluation
+![Model Evaluation](https://user-images.githubusercontent.com/121808701/211755580-577a267b-eea1-4816-85dd-d5a7385778e6.png)
 
 
 ### Tensorboard
+![epoch_acc Chart](https://user-images.githubusercontent.com/121808701/211751764-2481995f-08cf-48b2-947d-fafe334765ee.png)
+
+![epoch_loss Chart](https://user-images.githubusercontent.com/121808701/211751787-2a6ba6b0-efff-41a5-85ce-2a320c8e2461.png)
 
 
+### Model Deployment with Test Data
+![Model Deployment using Test Data](https://user-images.githubusercontent.com/121808701/211756021-2e7c026a-c7ad-443f-b63d-458f74ca12f9.png)
